@@ -6,5 +6,21 @@ PennCloud is a distributed storage system that supports accounts, authentication
 **Tech Stack**
 C++, gRPC
 
-### System Design
+### System Design / Architecture
+![System Architecture](https://github.com/Soojin-Lee0819/PennCloud/blob/main/image.png)
+
+### Features
+**Admin Console** 
+Administrative console proviidng a web interface for monitoring the health and status of the PennCloud cluster. 
+![Admin Console](https://github.com/Soojin-Lee0819/PennCloud/blob/main/img1.png)
+
+**Web Storage Service** 
+The web storage service supports the following operations: upload file, download file, create folder, delete, rename, and move (between folders).
+![Web Storage](https://github.com/Soojin-Lee0819/PennCloud/blob/main/img2.png)
+
+**User Accounts**
+User account management is handled by the frontend web servers, providing endpoints  for registration and login.
+![User Account](https://github.com/Soojin-Lee0819/PennCloud/blob/main/img3.png)
+
+
 
