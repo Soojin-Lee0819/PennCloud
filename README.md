@@ -20,7 +20,16 @@ The web storage service supports the following operations: upload file, download
 
 **User Accounts**
 User account management is handled by the frontend web servers, providing endpoints  for registration and login.
-![User Account](https://github.com/Soojin-Lee0819/PennCloud/blob/main/img3.png)
+![User Account](https://github.com/Soojin-Lee0819/PennCloud/blob/main/img3.jpg)
+
+
+**Webmail Service** 
+The Webmail frontend allows users to send, receive, reply to, forward, and delete emails both within and outside PennCloud (including UPenn mail).
+![Webmail](https://github.com/Soojin-Lee0819/PennCloud/blob/main/img4.png)
+
+**Key Value Store** 
+Backend storage server that stores all user data in a distributed, in-memory key-value store.
+![kv-store](https://github.com/Soojin-Lee0819/PennCloud/blob/main/img5.png)
 
 
 
